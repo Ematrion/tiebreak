@@ -1,4 +1,4 @@
-from tiebreak import PointSystem, Record, Player, DataSet, OutCome
+from . import PointSystem, Record, Player, DataSet, OutCome
 
 
 def record_score(record: Record, points: PointSystem) -> float:

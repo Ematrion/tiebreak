@@ -1,6 +1,6 @@
 import pytest
 
-from tiebreak import DataSet, OutCome, Result
+from tiebreaker import DataSet, OutCome, Result
 
 
 @pytest.fixture

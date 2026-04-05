@@ -1,8 +1,8 @@
 import re
 import pandas as pd
 
-from tiebreak import OutCome, DataSet, Result, tiebreaker
-from tiebreak.policies import Neustadtl
+from tiebreaker import OutCome, DataSet, Result, tiebreaker
+from tiebreaker.policies import Neustadtl
 
 
 def candidate2024_results():

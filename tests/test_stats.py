@@ -1,9 +1,9 @@
 import pytest
 
-from tiebreak import Result, DataSet, OutCome
-from tiebreak.points import CHESS
+from tiebreaker import Result, DataSet, OutCome
+from tiebreaker.points import CHESS
 
-from tiebreak import record_score, player_score, opponents_score, number_of_games
+from tiebreaker import record_score, player_score, opponents_score, number_of_games
 
 import collections
 

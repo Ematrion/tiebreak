@@ -1,6 +1,6 @@
-from tiebreak import Player, DataSet, OutCome, PointSystem
-from tiebreak import player_score, opponents_score, number_of_games
-import tiebreak.points as pt
+from . import Player, DataSet, OutCome, PointSystem
+from . import player_score, opponents_score, number_of_games
+from . import points as pt
 
 from typing import Callable
 

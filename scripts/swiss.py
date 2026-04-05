@@ -1,7 +1,7 @@
 import pandas as pd
 import re
-from tiebreak import OutCome, Result, DataSet, tiebreaker
-from tiebreak.policies import (
+from tiebreaker import OutCome, Result, DataSet, tiebreaker
+from tiebreaker.policies import (
     MedianSystem,
     Solkoff,
     Gelbfuhs,

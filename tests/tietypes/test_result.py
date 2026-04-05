@@ -1,11 +1,11 @@
 import pytest
 
-from tiebreak import Result, OutCome
+from tiebreaker import Result, OutCome
 
 
 samples = [
-    ("aaa", "bbb", OutCome.WIN, None),
-    ("ccc", "ddd", OutCome.LOSE, None),
+    ("aaa", "bbb", OutCome.WIN, 0),
+    ("ccc", "ddd", OutCome.LOSE, 0),
     ("eee", "fff", OutCome.DRAW, 2),
     ("ggg", "hhh", "win", 4),
     ("iii", "jjj", "lose", 10),

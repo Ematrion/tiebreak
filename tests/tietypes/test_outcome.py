@@ -1,4 +1,4 @@
-from tiebreak import OutCome
+from tiebreaker import OutCome
 
 
 def test_outcome_duality():

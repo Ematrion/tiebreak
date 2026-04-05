@@ -1,8 +1,8 @@
-from tiebreak import Policy, DataSet, Player, PointSystem
+from . import Policy, DataSet, Player, PointSystem
 from . import points as pt
 
 
-def tiebreaker(
+def tiebreak(
     policy: Policy, data: DataSet, points: PointSystem = pt.CHESS
 ) -> dict[Player, float]:
     """Tiebreak Computer

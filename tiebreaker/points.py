@@ -1,4 +1,4 @@
-from tiebreak import OutCome, PointSystem
+from . import OutCome, PointSystem
 
 
 KASHDAN: PointSystem = {OutCome.WIN: 4.0, OutCome.DRAW: 2.0, OutCome.LOSE: 1.0}

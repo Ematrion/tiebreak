@@ -1,4 +1,4 @@
-from tiebreak import Player, Result, OutCome
+from . import Player, Result, OutCome
 
 
 class DataSet:

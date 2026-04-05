@@ -1,10 +1,24 @@
 [project]
-name = "tiebreak"
-version = "0.1.0"
-description = "Add your description here"
+name = "tiebreaker"
+version = "0.1.2"
+description = "Tiebreak package for sport, games and competition"
+authors = [
+    {name = "Bucher David", email = "davidbucherdev@gmail.com"}
+]
+license = "MIT"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
+
+
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Topic :: Scientific/Engineering',
+    'Topic :: Games/Entertainment',
+    'Topic :: Games/Entertainment :: Simulation',
+    'Typing :: Typed',
+]
 
 [dependency-groups]
 dev = [
@@ -14,3 +28,7 @@ dev = [
     "pytest>=9.0.2",
     "ruff>=0.15.9",
 ]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
